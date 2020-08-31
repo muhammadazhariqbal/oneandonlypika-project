@@ -1,0 +1,38 @@
+@media only screen and (max-width: 370px) {
+    #about-us img {
+        height: 300px;
+        width: 250px;
+
+
+
+    }
+
+    #myBtn {
+        left: 85%;
+
+    }
+}
+
+@media only screen and (max-width: 275px) {
+    #about-us img {
+        height: 250px;
+        width: 200px;
+
+
+
+    }
+
+
+}
+
+@media only screen and (max-width: 990px) {
+    .card {
+        width: 95% !important;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .card {
+        width: 14rem !important;
+    }
+}

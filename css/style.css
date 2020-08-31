@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500&display=swap');
+/*font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+header section {
+    overflow: hidden;
+}
+
+/*start header section*/
+
+#background-image {
+    background-image: url(../images/bg-a.png);
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*start my-navbar section*/
+
+#my-navbar {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.navbar.scrolled {
+    background: #2d2c2c;
+    transition-duration: 2s;
+
+}
+
+.navbar-nav a {
+    color: #fff !important;
+    text-align: center;
+
+}
+
+.active a {
+    background-image: linear-gradient(#ecc241, #f1ba15);
+}
+
+.navbar-nav a:hover {
+    background-color: #f1ba15;
+
+    transition-duration: .7s;
+}
+
+.navbar ul li {
+    margin-right: 2rem;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    border: transparent !important;
+}
+
+.fas {
+    color: #fff !important;
+
+}
+
+#header-text h1 {
+    margin-top: 8rem;
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.text-decorate {
+    color: #f1ba15;
+}
+
+#header-text p {
+    color: #f1ba15;
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-btn {
+    background-image: linear-gradient(#ecc241, #f1ba15);
+    border: none;
+    border-radius: 0.6rem;
+
+
+    box-shadow: 0px 5px 15px #f1ba15;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.my-btn:hover {
+
+    transform: translateY(-3px);
+    transition-duration: 6s;
+
+
+
+}
+
+/*start-about-image*/
+#about-us {
+    background-color: #fff;
+    text-align: center;
+
+
+}
+
+#about-us img {
+    margin-top: 2rem;
+    height: 350px;
+    border-radius: 1rem;
+
+
+
+}
+
+#about-us h1 {
+    margin-top: 4rem;
+    font-size: 3rem;
+    color: #f1ba15;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#about-us p {
+    color: #343a40;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*start-project-section*/
+#project {
+    text-align: center;
+    background-color: #fff;
+}
+
+#project h1 {
+    margin-top: 6rem;
+    font-size: 3rem;
+    color: #f1ba15;
+    font-family: 'Anton', sans-serif;
+}
+
+#project p {
+    color: #343a40;
+    font-family: 'Poppins', sans-serif;
+}
+
+#project .card {
+    border: none;
+    background-color: transparent;
+    animation: cardtrans;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cardtrans {
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+
+#project .card img {
+    border-radius: 5rem;
+
+}
+
+#project .card h5 {
+
+    font-size: 1.5rem;
+    color: #f1ba15;
+    font-family: 'Anton', sans-serif;
+}
+
+/*start contact us*/
+#contact-us {
+    background-color: #2d2c2c;
+    background-position: fixed;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+    padding: 20px;
+    height: auto;
+}
+
+
+
+#contact-us p {
+    margin-top: 2rem;
+    font-size: 0.7rem;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+#contact-us .social-icons a {
+    margin-top: 1rem;
+    color: #f1ba15;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+#contact-us .social-icons a:hover {
+    color: #fff;
+    transition-duration: .5s;
+}
+
+#contact-us h4 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #f1ba15;
+    font-family: 'Anton', sans-serif;
+
+
+}
+
+#contact-us span {
+    color: #fff;
+    padding: 10px;
+
+}
+
+
+#contact-us button {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#myBtn {
+    height: 40px;
+    width: 40px;
+    border-radius: 3rem;
+
+    background-color: #f1ba15;
+    border: none;
+    left: 90%;
+
+    position: fixed;
+    bottom: 20px;
+    animation: cardtrans;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+
+}
+
+#contact-us #myBtn i {
+    color: #fff;
+}
